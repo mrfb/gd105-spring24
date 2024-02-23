@@ -4,17 +4,19 @@ int rightMargin;
 
 void setup(){
   size(1024, 1024);
+  strokeWeight(32);
+  strokeCap(SQUARE);
   
 }
 
 void draw(){
   background(255);
   
-  leftMargin = 50;
-  rightMargin = width - 50;
-  int leftMarginStep = 50;
-  int rightMarginStep = -10;
-  int spaceBetweenLines = 50;
+  leftMargin = 333;
+  rightMargin = width - 333;
+  int leftMarginStep = 80;
+  int rightMarginStep = -80;
+  int spaceBetweenLines = 128;
   
   translate(0, spaceBetweenLines);
   line(leftMargin, 0, rightMargin, 0);
