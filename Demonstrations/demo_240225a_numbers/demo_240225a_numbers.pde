@@ -7,7 +7,6 @@ void setup(){
   
   rectMode(CORNERS);
   colorMode(HSB, 360, 100, 100);
-  
 }
 
 void draw(){
